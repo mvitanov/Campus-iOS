@@ -139,6 +139,8 @@
 		22FD2F772576BDFB004E5A0F /* GradeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD2F762576BDFB004E5A0F /* GradeColors.swift */; };
 		22FFED5F247BDC1600BCA27C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFED5E247BDC1600BCA27C /* MapViewController.swift */; };
 		22FFED61247BF47100BCA27C /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFED60247BF47100BCA27C /* IconButton.swift */; };
+		3602F654274FBF54004018CD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3602F653274FBF54004018CD /* Model.swift */; };
+		3602F656274FBF66004018CD /* MockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3602F655274FBF66004018CD /* MockModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -295,6 +297,8 @@
 		22FD2F762576BDFB004E5A0F /* GradeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeColors.swift; sourceTree = "<group>"; };
 		22FFED5E247BDC1600BCA27C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		22FFED60247BF47100BCA27C /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		3602F653274FBF54004018CD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3602F655274FBF66004018CD /* MockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,6 +462,7 @@
 		2277E90E21D93C3300D7FF3F /* TUM Campus App */ = {
 			isa = PBXGroup;
 			children = (
+				3602F652274FBF3A004018CD /* Model */,
 				22EA144025F5881900349B83 /* Message */,
 				22B00AFE21DD877300E65C86 /* API */,
 				22B00AE621D9409600E65C86 /* Login */,
@@ -692,6 +697,15 @@
 			path = Message;
 			sourceTree = "<group>";
 		};
+		3602F652274FBF3A004018CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3602F653274FBF54004018CD /* Model.swift */,
+				3602F655274FBF66004018CD /* MockModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -923,6 +937,7 @@
 				22CFD18624B3873700A35FA6 /* LectureDetailCell.swift in Sources */,
 				22B8E7BA2389C91600CFEDEE /* ProfileTableViewController.swift in Sources */,
 				221471072476AA6F004C04BD /* TokenActivationTutorialViewController.swift in Sources */,
+				3602F654274FBF54004018CD /* Model.swift in Sources */,
 				224CB3692225ACAD0002945A /* TUMSexyTableViewController.swift in Sources */,
 				22D4FCD821DE6E2200DF1F4B /* RoundedViews.swift in Sources */,
 				22FFED5F247BDC1600BCA27C /* MapViewController.swift in Sources */,
@@ -954,6 +969,7 @@
 				22E5303C2217698300A29992 /* Credentials.swift in Sources */,
 				22B9D6492220B69F00854D55 /* TUMDevAppAPI.swift in Sources */,
 				224F37C12460C0CD00BEDA71 /* EatAPI.swift in Sources */,
+				3602F656274FBF66004018CD /* MockModel.swift in Sources */,
 				227395B324B4ABE80024CD21 /* MovieDetailHeader.swift in Sources */,
 				22E5303F22176DDE00A29992 /* CalendarEvent.swift in Sources */,
 				2261E7FB247AC3E8004F99E6 /* RoomMap.swift in Sources */,
